@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gastos Mensais - Lucas</title>
+    </head>
+    <body>
+        <h1>Controle de Gastos</h1>
+      <p>
+        Descrição: <input type="text" placeholder="Descrição do gasto" id="descricao" autofocus><br>
+        Valor: <input type="number" placeholder="Valor do gasto" id="valor">
+      </p>
+        <button id="botaoAdc" onclick="clicarGasto()">Adicionar</button><br>
+        <h3>Gastos:</h3>
+        <ol id="listaGastos">
+        </ol>
+        <p id="valorTotal">
+        </p>
+    </body>
+    <script src="script.js"></script>
+</html>
